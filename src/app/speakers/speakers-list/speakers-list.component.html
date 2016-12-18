@@ -1,0 +1,8 @@
+<div class="wrapper">
+    <h3>Speakers</h3>
+    <div class="speakers-imgs">
+        <div *ngFor="let speaker of Speakers" class='col-sm-4'>
+            <img (click)="onSpeakerClick(speaker.id)" src="app/speakers/speakers-list/images/{{speaker.url}}" alt="{{speaker.name}}">
+        </div>    
+    </div>
+</div>

@@ -1,0 +1,10 @@
+<nav>
+  <div class="title col-sm-6">
+    Angular 2 Named Router Outlets
+  </div>
+  <div class="links col-sm-6">
+      <a [routerLink]="['']">Home</a>
+      <a [routerLink]="['/speakers', {outlets: {'list': ['speakers-list'], 'bio': ['none']}}]">Speakers</a>
+      
+  </div>
+</nav>

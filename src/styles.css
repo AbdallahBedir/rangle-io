@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+.outlet{
+    border:1px solid crimson;
+    padding:10px;
+    color:#fff;
+    background-color:#333;
+}
